@@ -13,7 +13,7 @@ describe("index.js", () => {
 
   describe("displayMessage() function", () => {
     it("updates the DOM with an appropriate message", () => {
-      let testContent = "TEST"
+      let testContent = ""
       displayMessage(testContent)
       let content = document.getElementById("greeting").textContent
       expect(content).to.equal(testContent)
